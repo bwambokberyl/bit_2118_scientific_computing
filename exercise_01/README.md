@@ -82,11 +82,3 @@ First six converted readings:
 ```text
 [0.0124 0.0118 0.0109 0.0102 0.0111 0.0136]
 ```
-
-## 5. Execution
-
-From the monorepo root:
-
-```bash
-python3 exercise_06_numpy_arrays/solution.py
-```
