@@ -99,6 +99,6 @@ x_values = np.array([1e-4, 1e-8, 1e-12])
 These small values help demonstrate how floating-point precision affects numerical calculations.
 
 ### output
-[output image](../output_images/exercise3_output.png)
+[output image](https://github.com/bwambokberyl/bit_2118_scientific_computing/blob/main/output_images/exercise3_output.png)
 
 
