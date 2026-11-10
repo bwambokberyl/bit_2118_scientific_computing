@@ -8,9 +8,9 @@ Instead of processing individual elements using Python loops, NumPy applies math
 
 **Essential mathematical identity:**
 
-\[
-\sin^2(x) + \cos^2(x) = 1
-\]
+
+sin^2(x) + cos^2(x) = 1
+
 
 For an array of angles \(x\), NumPy evaluates:
 
@@ -58,9 +58,9 @@ A robotic arm monitoring system records one million angular measurements from it
 
 The engineering team needs to evaluate the trigonometric identity:
 
-\[
-y_i = \sin^2(x_i) + \cos^2(x_i)
-\]
+
+y_i = sin^2(x_i) + cos^2(x_i)
+
 
 Develop a Python program that:
 
