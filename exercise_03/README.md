@@ -98,27 +98,7 @@ x_values = np.array([1e-4, 1e-8, 1e-12])
 
 These small values help demonstrate how floating-point precision affects numerical calculations.
 
-### Expected Results
-
-**Error calculation:**
-
-| Measurement | Expected result |
-|---|---:|
-| Reference value | 2.23606798 |
-| Approximation | 2.236 |
-| Absolute error | 0.00006798 |
-| Relative error | 0.003040% |
-
-**Numerical stability comparison:**
-
-| x | Direct expression | Stable expression |
-|---|---:|---:|
-| 1e-4 | 0.499987500624 | 0.499987500625 |
-| 1e-8 | 0.499999996961 | 0.499999998750 |
-| 1e-12 | 0.500044450291 | 0.500000000000 |
-
-The direct expression becomes less accurate for very small values of \(x\) because of subtractive cancellation.
-
-The stable expression reduces this numerical problem.
+### output
+[output image](../output_images/exercise3_output.png)
 
 
