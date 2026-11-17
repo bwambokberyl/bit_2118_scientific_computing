@@ -100,7 +100,6 @@ $$
 
 Matrix multiplication gives:
 
-
 $$
 Ax =
 \begin{bmatrix}
