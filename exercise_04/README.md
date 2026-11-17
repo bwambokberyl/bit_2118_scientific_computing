@@ -3,8 +3,8 @@
 ## 1. Directory & Metadata
 
 - **Exercise:** 04
-- **Topic:** Matrix Algebra and Matrix Operations
-- **Programming Language:** Python 3
+- **Concept:** Matrix Algebra and Matrix Operations
+- **Programming Language:** Python 
 - **Library:** NumPy
 - **Application Area:** Computer Graphics and 2-D Geometric Transformations
 
