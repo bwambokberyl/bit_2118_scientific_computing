@@ -100,15 +100,16 @@ $$
 
 Matrix multiplication gives:
 
+
 $$
 Ax =
 \begin{bmatrix}
-(1 \times 5)+(2 \times 6)\\
+(1 \times 5)+(2 \times 6) \\
 (3 \times 5)+(4 \times 6)
 \end{bmatrix}
 =
 \begin{bmatrix}
-17\\
+17 \\
 39
 \end{bmatrix}
 $$
