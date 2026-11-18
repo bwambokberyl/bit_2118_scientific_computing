@@ -98,15 +98,7 @@ x =
 \end{bmatrix}
 $$
 
-**Matrix multiplication example**
 
-Given:
-
-$$
-A = \begin{bmatrix} 1 & 2 \\ 3 & 4 \end{bmatrix},
-\quad
-x = \begin{bmatrix} 5 \\ 6 \end{bmatrix}
-$$
 
 Multiply each row of the matrix by the column vector:
 
