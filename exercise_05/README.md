@@ -32,13 +32,13 @@ $$
 
 The matrix representation is:
 
-$
+'''
 \begin{bmatrix}
-a_1 & b_1\\
+a_1 & b_1\\\
 a_2 & b_2
 \end{bmatrix}
 \begin{bmatrix}
-x\\
+x\\\
 y
 \end{bmatrix}
 =
@@ -46,7 +46,7 @@ y
 c_1\\
 c_2
 \end{bmatrix}
-$
+'''
 
 ### Solving a System of Linear Equations Using NumPy
 
@@ -178,13 +178,13 @@ $$
 
 Therefore:
 
-$$
-A=
+```math
+A =
 \begin{bmatrix}
-4 & 2\\
+4 & 2 \\
 8 & 12
 \end{bmatrix}
-$$
+```
 
 $$
 x=
