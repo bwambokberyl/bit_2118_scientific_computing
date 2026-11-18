@@ -34,16 +34,16 @@ The matrix representation is:
 
 $$
 \begin{bmatrix}
-a_1 & b_1\\
+a_1 & b_1\\\
 a_2 & b_2
 \end{bmatrix}
 \begin{bmatrix}
-x\\
+x\\\
 y
 \end{bmatrix}
 =
 \begin{bmatrix}
-c_1\\
+c_1\\\
 c_2
 \end{bmatrix}
 $$
