@@ -98,20 +98,26 @@ x =
 \end{bmatrix}
 $$
 
-Matrix multiplication gives:
+**Matrix multiplication example**
+
+Given:
 
 $$
-Ax =
-\begin{bmatrix}
-(1 \times 5)+(2 \times 6) \\
-(3 \times 5)+(4 \times 6)
-\end{bmatrix}
-=
-\begin{bmatrix}
-17 \\
-39
-\end{bmatrix}
+A = \begin{bmatrix} 1 & 2 \\ 3 & 4 \end{bmatrix},
+\quad
+x = \begin{bmatrix} 5 \\ 6 \end{bmatrix}
 $$
+
+Multiply each row of the matrix by the column vector:
+
+- First row: (1 × 5) + (2 × 6) = 17
+- Second row: (3 × 5) + (4 × 6) = 39
+
+Therefore:
+
+**Ax = [17, 39]ᵀ**
+
+
 
 ### Real-World Applications
 
