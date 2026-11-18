@@ -9,9 +9,9 @@ A system of linear equations consists of two or more linear equations that share
 
 In scientific computing, these systems can be represented using matrix notation:
 
-$$
+```math
 Ax=b
-$$
+```
 
 Where:
 
@@ -23,30 +23,30 @@ Solving the system means finding the values of the unknown variables in vector *
 
 For a system with two unknowns:
 
-$$
+```math
 \begin{aligned}
 a_1x+b_1y&=c_1\\
 a_2x+b_2y&=c_2
 \end{aligned}
-$$
+```
 
 The matrix representation is:
 
-'''
+```math
 \begin{bmatrix}
-a_1 & b_1\\\
+a_1 & b_1 \\
 a_2 & b_2
 \end{bmatrix}
 \begin{bmatrix}
-x\\\
+x \\
 y
 \end{bmatrix}
 =
 \begin{bmatrix}
-c_1\\
+c_1 \\
 c_2
 \end{bmatrix}
-'''
+```
 
 ### Solving a System of Linear Equations Using NumPy
 
@@ -58,7 +58,7 @@ The general syntax is:
 solution = np.linalg.solve(A, b)
 ```
 
-The function calculates the values of the unknown variables in the system \(Ax=b\).
+The function calculates the values of the unknown variables in the system `Ax = b`.
 
 A valid unique solution exists when the coefficient matrix is square and non-singular.
 
@@ -66,45 +66,47 @@ A valid unique solution exists when the coefficient matrix is square and non-sin
 
 Consider the following simultaneous equations:
 
-$$
+```math
 2x+3y=8
-$$
+```
 
-$$
+```math
 4x+y=6
-$$
+```
 
 The coefficient matrix and constant vector are:
 
-$$
+```math
 A=
 \begin{bmatrix}
-2 & 3\\
+2 & 3 \\
 4 & 1
 \end{bmatrix}
-\qquad
+```
+
+```math
 b=
 \begin{bmatrix}
-8\\
+8 \\
 6
 \end{bmatrix}
-$$
+```
 
 The solution is:
 
-$$
+```math
 x=1,\qquad y=2
-$$
+```
 
 Verification:
 
-$$
+```math
 2(1)+3(2)=8
-$$
+```
 
-$$
+```math
 4(1)+2=6
-$$
+```
 
 Both equations are satisfied. Therefore, the solution is correct.
 
@@ -143,62 +145,64 @@ The objective is to determine how many Type A and Type B servers are active base
 
 Let:
 
-- \(x\) = number of Type A servers.
-- \(y\) = number of Type B servers.
+- `x` = number of Type A servers.
+- `y` = number of Type B servers.
 
 From the CPU usage, we obtain:
 
-$$
+```math
 4x+2y=20
-$$
+```
 
 From the memory usage, we obtain:
 
-$$
+```math
 8x+12y=72
-$$
+```
 
 These equations can be represented in matrix form:
 
-$$
+```math
 \begin{bmatrix}
-4 & 2\\
+4 & 2 \\
 8 & 12
 \end{bmatrix}
 \begin{bmatrix}
-x\\
+x \\
 y
 \end{bmatrix}
 =
 \begin{bmatrix}
-20\\
+20 \\
 72
 \end{bmatrix}
-$$
+```
 
 Therefore:
 
 ```math
-A =
+A=
 \begin{bmatrix}
 4 & 2 \\
 8 & 12
 \end{bmatrix}
 ```
 
-$$
+```math
 x=
 \begin{bmatrix}
-x\\
+x \\
 y
 \end{bmatrix}
-\qquad
+```
+
+```math
 b=
 \begin{bmatrix}
-20\\
+20 \\
 72
 \end{bmatrix}
-$$
+```
 
 ### Solution Approach
 
@@ -218,39 +222,39 @@ The following steps are performed:
 
 The calculated solution is:
 
-$$
+```math
 x=3,\qquad y=4
-$$
+```
 
 Substituting these values into the original equations:
 
-CPU verification:
+**CPU verification:**
 
-$$
+```math
 4(3)+2(4)=20
-$$
+```
 
-Memory verification:
+**Memory verification:**
 
-$$
+```math
 8(3)+12(4)=72
-$$
+```
 
 Both equations are satisfied.
 
 The residual is calculated using:
 
-$$
+```math
 r=b-Ax
-$$
+```
 
 A residual of zero indicates that the calculated solution reproduces the given resource totals exactly, subject to numerical precision.
 
 The residual norm is calculated using:
 
-$$
+```math
 \|r\|_2=\sqrt{r_1^2+r_2^2}
-$$
+```
 
 ## 4. Python Implementation
 
