@@ -57,7 +57,7 @@ Each exercise contains:
 **1. Clone the repository**
 
 ```bash
-git clone git@github.com:bwambokberyl/bit_2118_scientific_computing.git
+git clone https://github.com/bwambokberyl/bit_2118_scientific_computing.git
 cd scientific-computing
 ```
 
